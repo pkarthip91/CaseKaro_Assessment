@@ -1,0 +1,253 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+body {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 13px;
+    background-color: #f0f5f7
+}
+
+.small-logo {
+    width: 24px;
+    height: 19px;
+}
+
+.bg-gray {
+    background: #F4F4F4;
+}
+
+input:focus {
+    background: #F4F4F4 !important;
+}
+
+.bg-light-yellow {
+    background: #FFF0E3;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.color-theme {
+    color: #262626;
+}
+
+#slider-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#slider-div>div {
+    margin: 8px;
+}
+
+.slider-label {
+    position: absolute;
+    background-color: #eee;
+    padding: 4px;
+    font-size: 0.75rem;
+}
+
+.slider-border {
+    background: linear-gradient(to bottom, #FFE600, #ff3d000d);
+    border: none;
+    padding: 10px;
+}
+
+.slider-content {
+    position: relative;
+    bottom: 10px;
+    background: linear-gradient(to right, #FFD5BE, #FFE600);
+    left: 20px;
+    right: 20px;
+    z-index: 999;
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+}
+
+.price-value {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.price-value span::after {
+    content: "";
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0;
+    rotate: none;
+    transform: rotate(-14deg);
+    bottom: 10px;
+    height: 2px;
+    width: 50px;
+    background: #f00;
+}
+
+.tag-align {
+    position: absolute;
+    top: -15px;
+    background: #FFF6D8;
+}
+
+.tag-align p {
+    padding: 5px;
+    font-size: 12px;
+    color: #000;
+    font-weight: 800;
+    line-height: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+.title h6 {
+    font-size: 14px;
+}
+
+.slider-bottom-content h5 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.slider-bottom-content button {
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.percentage-value {
+    font-weight: 900 !important;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.font-s-10 {
+    font-size: 12px;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.bg-light-gray {
+    background: #F7F6FF;
+}
+
+.w-80 {
+    width: 60%;
+}
+
+.discont-timing p {
+    color: #EB4335;
+}
+
+.brand-img {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.ads-2 .title h1 {
+    color: #0052CC;
+}
+
+.form-control {
+    font-size: 14px;
+    box-shadow: none !important
+}
+
+.small,
+small {
+    font-size: 12px
+}
+
+.btn-light {
+    color: #212529 !important
+}
+
+.back-page {
+    font-size: 19px;
+    vertical-align: bottom
+}
+
+div,
+a {
+    outline: none !important;
+    text-decoration: none !important
+}
+
+a {
+    color: #000
+}
+
+a:hover {
+    color: #02aabd
+}
+
+.input-group-prepend i {
+    font-size: 13px;
+    color: #898A8D;
+}
+
+.text-stike {
+    text-decoration: line-through;
+}
+
+.best-seller-img {
+    position: relative;
+}
+
+.best-seller-img img {
+    position: relative;
+
+}
+
+.best-seller-img::before {
+    content: "";
+    background-image: url(../img/best-seller/back-img.png);
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.best-seller-content .discont-timing p {
+    font-size: 10px;
+    color: #FF6B00;
+}
+
+.best-seller-bottom {
+    margin-top: 15px;
+}
+
+.text-product-title {
+    line-height: 0px;
+}
+
+.best-seller-img-height {
+    min-height: 110px;
+}
